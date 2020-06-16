@@ -32,6 +32,9 @@ export default {
   body {
     background: linear-gradient(to bottom, #555, #999) fixed;
   }
+</style>
+
+<style scoped>
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
   }
