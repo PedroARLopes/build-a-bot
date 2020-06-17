@@ -46,7 +46,7 @@ const parts = {
       src: images('./head-surveillance.png'),
       type: 'heads',
       cost: 1255.5,
-    }
+    },
   ],
   arms: [
     {
@@ -89,7 +89,7 @@ const parts = {
       src: images('./arm-stubby-claw.png'),
       type: 'arms',
       cost: 125,
-    }
+    },
   ],
   torsos: [
     {
@@ -116,7 +116,7 @@ const parts = {
       type: 'torsos',
       cost: 785,
       onSale: true,
-    }
+    },
   ],
   bases: [
     {
@@ -158,7 +158,7 @@ const parts = {
       src: images('./base-triple-wheel.png'),
       type: 'bases',
       cost: 700.5,
-    }
-  ]
+    },
+  ],
 };
 export default parts;
