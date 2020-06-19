@@ -5,6 +5,7 @@ export default {
   state: {
     cart: [],
     parts: null,
+    foo: 'robots-foo',
   },
   mutations: {
     addRobotToCart(state, robot) {
@@ -35,6 +36,9 @@ export default {
           || (item.rightArm.onSale)
           || (item.base.onSale),
       );
+    },
+    foo(state) {
+      return `robots-getter/${state.foo}`;
     },
   },
 };
