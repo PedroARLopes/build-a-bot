@@ -51,7 +51,7 @@ export default {
   computed: {
     ...mapState({
       rootFoo: (state) => state.foo,
-      usersFoo: (state) => { console.log(state); return 'poop'; }, // state.users.foo }, // this no works
+      usersFoo: (state) => state.users.foo,
     }),
     ...mapState('robots', { robotsFoo: 'foo' }),
     ...mapGetters({ rootGetterFoo: 'foo' }),
