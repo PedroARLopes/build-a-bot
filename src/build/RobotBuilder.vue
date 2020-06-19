@@ -53,23 +53,6 @@
         @partSelected="part => selectedRobot.base=part"
       />
     </div>
-    <div>
-      <h1>Cart</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Robot</th>
-            <th class="cost">Cost</th>
-          </tr>
-        </thead>
-        <tbody>
-        <tr v-for="(robot, index) in cart" :key="index">
-          <td>{{robot.head.title}}</td>
-          <td class="cost">{{robot.cost}}</td>
-        </tr>
-        </tbody>
-      </table>
-    </div>
   </div>
 </template>
 
@@ -244,13 +227,6 @@ export default {
     width: 210px;
     padding: 3px;
     font-size: 16px;
-  }
-  td, th {
-    text-align: left;
-    padding: 5px 20px 5px 5px;
-  }
-  .cost {
-    text-align: right;
   }
   .sale-border {
     border: 3px solid red;
